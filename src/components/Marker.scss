@@ -1,0 +1,18 @@
+.marker {
+  border: 2px solid;
+  opacity: 0.5;
+
+  background-color: transparent;
+  z-index: 1000;
+
+  transform: scale(0.75);
+}
+
+.marker--active {
+  opacity: 1;
+  animation-duration: 1s;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+
+  transform: initial;
+}

@@ -1,0 +1,15 @@
+@import "./constants";
+
+@each $size in $fixed-sizes {
+  .box--wrapping--#{$size} {
+    flex-wrap: wrap;
+
+    margin-right: #{-1 * $size / 4}rem;
+    margin-bottom: #{-1 * $size / 4}rem;
+
+    & > * {
+      margin-right: #{$size / 4}rem;
+      margin-bottom: #{$size / 4}rem;
+    }
+  }
+}

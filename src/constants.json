@@ -1,0 +1,109 @@
+{
+  "GRID_SIZE": 32,
+  "INITIAL_CURRENCY": 10,
+  "ENTITY_STATS": {
+    "melee": [
+      {
+        "price": 2,
+        "speed": 3,
+        "power": 2,
+        "range": 1,
+        "maxHealth": 3
+      },
+      {
+        "price": 3,
+        "speed": 3,
+        "power": 3,
+        "range": 1,
+        "maxHealth": 4
+      },
+      {
+        "price": 5,
+        "speed": 4,
+        "power": 4,
+        "range": 1,
+        "maxHealth": 5
+      }
+    ],
+    "range": [
+      {
+        "price": 3,
+        "speed": 2,
+        "power": 1,
+        "range": 2,
+        "maxHealth": 2
+      },
+      {
+        "price": 5,
+        "speed": 2,
+        "power": 2,
+        "range": 3,
+        "maxHealth": 2
+      },
+      {
+        "price": 8,
+        "speed": 3,
+        "power": 3,
+        "range": 3,
+        "maxHealth": 3
+      }
+    ],
+    "healer": [
+      {
+        "price": 3,
+        "speed": 2,
+        "power": 2,
+        "range": 2,
+        "maxHealth": 2
+      },
+      {
+        "price": 4,
+        "speed": 2,
+        "power": 4,
+        "range": 2,
+        "maxHealth": 2
+      },
+      {
+        "price": 6,
+        "speed": 2,
+        "power": 6,
+        "range": 3,
+        "maxHealth": 2
+      }
+    ],
+    "builder": [
+      {
+        "price": 2,
+        "speed": 2,
+        "range": 1,
+        "maxHealth": 2
+      },
+      {
+        "price": 5,
+        "speed": 2,
+        "range": 1,
+        "maxHealth": 2
+      },
+      {
+        "price": 10,
+        "speed": 2,
+        "range": 1,
+        "maxHealth": 2
+      }
+    ],
+    "building": [
+      {
+        "price": 5,
+        "maxHealth": 8
+      },
+      {
+        "price": 10,
+        "maxHealth": 12
+      },
+      {
+        "price": 15,
+        "maxHealth": 16
+      }
+    ]
+  }
+}
